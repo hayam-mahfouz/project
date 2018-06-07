@@ -1,0 +1,274 @@
+body{
+	margin: 0;
+}
+.container{
+	margin: 0 auto;
+	width: 85%;
+}
+.bg-1{
+	background-image: url("banner_bg.jpg");
+	width: 100%;
+	height: 100%;
+}
+.logo img{
+	display: inline-block;
+	padding-top: 20px;
+}
+ ul{
+	display: inline-block;
+	padding-top: 20px;
+	float: right;
+}
+ul li{
+	display: inline-block;
+	font-family: arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.center-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translatex(-50%) translatey(-50%);
+
+}
+.center-text h1{
+	font-weight: bold;
+	font-family: arial;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.center-text p{
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+.HTML5{
+	color: #34c0ca;
+}
+.Tinker{
+	color:#fc922e; 
+
+}
+.btn1{
+	text-align: center;
+}
+.btn1 button{
+	color: black;
+	background-color: white;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.bg-2{
+	width: 100%;
+	height: 100%;
+	background-image: url("about-bg.jpg");
+	background-attachment: fixed;
+
+}
+.parent-div{
+	width: 100%;
+	height: 100%;
+/*	border: 1px solid red;
+*/	font-size: 0;
+}
+.div-one,.div-two,.div-three{
+	width: 24%;
+	height: 50%;
+	display: inline-block;
+/*	border: 1px solid red;
+*/
+}
+.div-four{
+	width: 24%;
+	height: 50%;
+	display: inline-block;
+	top: 0;
+
+}
+.div-one  img {
+	 margin: 40 auto;   /*img in center of div*/
+     display: block;	
+}
+.div-two img{
+	margin: 40 auto;   /*img in center of div*/
+     display: block;
+}
+.div-three  img {
+	 margin: 40 auto;   /*img in center of div*/
+     display: block;	
+}
+.div-four img{
+	 margin: 40 auto;   /*img in center of div*/
+     display: block;
+}
+.div-one , .div-two ,.div-three,.div-four p {
+	font-size: 15px;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+    	
+}
+.div-one  span{
+	border-bottom: 1px gray solid;
+	padding-bottom: 20px;
+
+}
+.div-two  span{
+	border-bottom: 1px gray solid;
+	padding-bottom: 20px;
+
+}
+.div-three  span{
+	border-bottom: 1px gray solid;
+	padding-bottom: 20px;
+
+}
+.div-four  span{
+	border-bottom: 1px gray solid;
+	padding-bottom: 20px;
+
+}
+.text{
+	width: 100%;
+	height: 55%;
+/*	border: 1px solid red;
+*/
+}
+.text p{
+	text-align: center;
+	padding: 25px;
+	font-family: arial;
+	font-weight: normal;
+}
+.btn2 button{
+	background-color: #33c1cf;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	border: none;
+
+}
+.btn2{
+	padding-top: 5px;
+	text-align: center;
+}
+.bg-3{
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 100%;
+}
+
+.second-parent{
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+	position: relative;
+
+
+}
+.left-div{
+	width: 40%;
+	height: 100%;
+/*	border: 1px solid red;
+*/	display: inline-block;
+	margin-right: 20px;
+	background-color: #33c1cf;
+
+}
+.left-div h2{
+	color: white;
+	font-family: arial;
+	font-size: 40px;
+	text-align: center;
+	position: relative;
+	top: 50px;
+
+ }
+
+.left-div p{
+	color:white;
+}
+.right-div{
+	width: 45%;
+	height: 90%;
+	display: inline-block;
+    padding-top: 15px;
+/*	border: 1px solid red;
+*/	position: absolute;
+
+}
+.right-div img{
+	width: 48%;
+	height: 35%
+}
+
+.bg-4{
+
+	background-color: #f7c552;
+	padding-top: 200px;
+	width: 100%;
+	height: 20%;
+	position: relative;
+
+
+}
+.rich{
+	width: 45%;
+	height: 120px;
+/*	border: 1px solid red;
+*/	border-radius: 20px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translatex(-50%) translatey(-50%);
+	margin-bottom: 20px;
+
+}
+.rich p{
+	text-align: center;
+	color: gray;
+	font-size: 15px;
+	font-family: arial;
+	font-style: italic;
+
+}
+.p1{
+	padding-top: 30px;
+    text-align: center;
+	color: white;
+	font-size: 15px;
+	font-family: arial;
+	font-style: italic;
+	font-weight: bold;
+}
+.p2{
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	font-family: arial;
+	font-style: italic;
+	font-weight: bold;
+}
+.bg-6{
+	height: 20%;
+
+	background-color: #5a5f65;
+}
+.bg-6 h4{
+	text-align: center;
+	margin: 0;
+	font-family: arial;
+	color: white;
+}
